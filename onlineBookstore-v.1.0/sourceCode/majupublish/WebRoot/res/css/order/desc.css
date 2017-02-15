@@ -1,0 +1,15 @@
+.price_t {
+	font-size: 15px;
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+}
+
+td .bookname {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: keep-all;
+	white-space: nowrap;
+	width: 300px;
+}

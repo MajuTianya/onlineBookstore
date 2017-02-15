@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+body{margin:0px; padding:0px; font-size:10pt; color:#404040; font-family:SimSun; }
+#mainDiv{margin:70px 0px 0px 0px; display:inline-block; }
+#div1{width:690px; height:35px; background-color:#efeae5; border-left:5px solid #efeae5; border-right:5px solid #efeae5; margin-left:120px; }
+#div2{width:690px; height:250px; border:5px solid #efeae5; margin-left:120px; }
+#spanTitle{height:25px; font-weight:900px; margin-top:10px; margin-left:10px; display:inline-block; }
+#img{width:150px; margin:30px 100px 0px 30px; float:left; }
+dl{width:400px; margin-top:30px;float:left; }
+dt{font-weight:900; }
+#price_zj{font-family:Arial; font-size:15pt; font-weight:bold; color:#c30; }
+#play{background:url(/majupublish/images/bg_btns.png) no-repeat; display:inline-block; background-position:0px -300px; width:50px; height:20px; text-decoration:none; color:#ffffff; font-weight:900; font-family:黑体; text-align:center; line-height:20px; }
+#play:hover{background:url(/majupublish/images/bg_btns.png) no-repeat; display:inline-block; background-position:0px -330px; width:50px; height:20px; }

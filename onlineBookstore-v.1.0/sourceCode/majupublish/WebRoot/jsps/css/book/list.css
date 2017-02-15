@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+body{margin:0px; padding:0px; font-size:12px; align:center; }
+.mainDiv{margin:40px 0px 10px 0px; }
+.listDiv{display:inline-block; height:auto; margin:15px 0px; }
+ul,li{list-style-type:none; }
+.listDiv ul{width:940px; height:auto; float:left; overflow: hidden; margin:0px; padding:0px;}/* 这些标签之间的padding,margin*/
+.listDiv ul li{width:220px; height:320; float:left; overflow:hidden; margin:0px 10px 10px 0px; padding:0px; border-left:1px solid #f2f1e2; border-bottom:1px solid #f2f1e2;  }
+.inner{padding:10px 10px; margin-bottom:0px; margin-left:0px;  white-space:nowrap; }
+.picture{width:200px; height:200px; margin-bottom:3px; display:block; position:relative; }
+.price{margin-bottom:3px; font-family:Arial; }
+.price_x{color:#c30; font-weight:bold; padding-right:10px; }
+.price_y{color:#878787; padding:10px; text-decoration:line-through; }
+.price_z{color:#c30; }
+.bookname{width:200px; text-decoration:underline; overflow:hidden; color:#555555; font-family:Arail; word-break:keep-all;display:block; }
+.bookname:hover {color:#ff6600; }
+.bookauthor{color:#018bd3; }
+.bookauthor:hover{color:#ff6600; }/* a:visited设置出问题*/
+.index_hr{width:940px; border-bottom:5px solid #f2f1e2; margin:20px 0px; }

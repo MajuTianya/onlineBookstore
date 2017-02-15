@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+body{margin:0px; padding:0px; font-size:10pt; color:#404040; }
+#divMain2{margin:70px 0px 0px 0px; display:inline-block; }
+#divTitle{background:url(/majupublish/images/paginating_bg.png) repeat-x; display:inline-block; width:940px; height:35px; line-height:35px; border-top:1px solid #bbb69b; }
+.orderTitle{background-color:#efeae5; height:25px; font-family:Arial; color:#878787; }
+a{text-decoration:none; color:#018bd3; }
+a:hover{text-decoration:underline; }
+.img{border:1px solid #ffffff; display:inline-block; }
+.img:hover{border:1px solid #d0d0d0; display:inline-block; }
+.img:active{border:1px solid #404040;display:inline-block; }
+.price_s{color:#c30; font-weight:bold; font-family:Arial; font-size:10pt; padding-right:10px; }
+table{font-size:10pt; margin-left:2px; }
+td{padding-left:5px; }
