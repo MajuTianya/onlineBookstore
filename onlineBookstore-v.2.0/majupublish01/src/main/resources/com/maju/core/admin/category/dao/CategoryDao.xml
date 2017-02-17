@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maju.core.admin.category.dao.CategoryDao">
+	<resultMap id="category" type="com.maju.core.admin.category.bean.Category">
+		<result property="cid" column="cid" />
+		<result property="cname" column="cname" />
+		<result property="pid" column="pid" />
+		<result property="descr" column="descr" />
+		<result property="orderBy" column="orderBy" />
+	</resultMap>
+	
+	<!-- getCategoryOne :获得一级分类-->
+	<select id="getCategoryOne" resultMap="category">
+		select * from t_category where pid is null order by orderBy desc
+	</select>
+	
+	<!-- getCategoryByCid :获取父类-->
+	<select id="getCategoryByCid" parameterType="String" resultMap="category">
+		select * from t_category
+		<where>
+			<if test="cid != null">
+			cid = #{cid}
+			</if>
+		</where>
+	</select>
+	
+	<!-- getChildrenByPid :获取子类-->
+	<select id="getChildrenByPid" parameterType="String" resultMap="category">
+		select * from t_category
+		<where>
+			<if test="pid != null">
+			pid = #{pid}
+			</if>
+		</where>
+	</select>
+	
+	<!-- queryCategoryByCategories :条件查询分类-->
+	<select id="queryCategoryByCategories" parameterType="com.maju.core.admin.category.bean.Category" resultMap="category">
+		select * from t_category
+		<where>
+			<if test="pid != null and pid != ''">
+			pid = #{pid}
+			</if>
+			<if test="cid != null and cid != ''">
+			and cid = #{cid}
+			</if>
+			<if test="cname != null and cname != ''">
+			and cname like '%${cname}%'
+			</if>
+		</where>
+	</select>
+	
+	<!-- add :添加分类-->
+	<insert id="add" parameterType="com.maju.core.admin.category.bean.Category" >
+		insert into 
+		t_category
+		<trim prefix="(" suffix=")">
+			cid,
+			cname,
+			<if test="pid != null and pid != ''">
+			pid,
+			</if>
+			descr
+		</trim>
+		values
+		<trim prefix="(" suffix=")">
+			#{cid},
+			#{cname},
+			<if test="pid != null and pid != ''">
+			#{pid},
+			</if>
+			#{descr}
+		</trim>
+	</insert>
+	
+	<!-- edit :修改分类-->
+	<update id="edit" parameterType="com.maju.core.admin.category.bean.Category" >
+		update t_category
+		<set>
+			<if test="cname != null and cname != ''">
+			cname=#{cname},
+			</if>
+			<if test="pid != null and pid != ''">
+			pid=#{pid},
+			</if>
+			<if test="descr != null and descr != ''">
+			descr=#{descr}
+			</if>
+		</set>
+		<where>
+		cid=#{cid}
+		</where>
+	</update>
+	
+	<!-- getChildrenCountByPid :获取子类个数-->
+	<select id="getChildrenCountByPid" parameterType="String" resultType="Integer">
+		select count(1) from t_category
+		<where>
+			pid = #{pid}
+		</where>
+	</select>
+	
+	<!-- delete :删除分类-->
+	<delete id="delete" parameterType="String">
+		delete from t_category
+		<where>
+			cid=#{cid}
+		</where>
+	</delete>
+	
+</mapper>

@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+body{margin:0px; padding:0px; display:inline-block;  }
+#mainDiv{margin:70px 0px 20px 20px; display:inline-block; }
+table{border:5px solid #efeae5; color:#404040; font-size:10pt; }
+td{border-color:#efeae5;border-style:solid; border-width:0px; border-bottom-width:1px; padding:10px; }
+#spanEmpty{margin-top:50px; font-size:24px; font-weight:900; }
+a{text-decoration:none; color:#018bd3; }
+a:hover{text-decoration:underline; color:#ff6600; }
+.linkImage{border:1px solid #ffffff; display:inline-block; }
+.linkImage:hover{border:1px solid #d0d0d0; display:inline-block; }
+.linkImage:active {border:1px solid #404040; display:inline-block; }
+.quantity{width:25px; margin:0px; text-align:center; }
+.jian{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:-166px -145px; width:11px; height:11px; margin:0px; }
+.jian:hover{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:-166px -125px; width:11px; height:11px; margin:0px; }
+.jia{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:-178px -145px; width:11px; height:11px; margin:0px; }
+.jia:hover{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:-178px -125px; width:11px; height:11px; margin:0px; }
+.price_x{color:#c30; font-family:Arial; font-weight:bold; padding-right:10px; }
+.batchDelete{border-bottom-width:0px; border-top-width:5px; }
+.Total{border-top-width:5px; }
+.price_zj{color:#c30; font-family:Arial; font-weight:bold; padding-right:10px; font-size:15pt; }
+#jiesuan{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:0px -35px; width:190px; height:40px; }
+#jiesuan:hover{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:0px -75px; width:190px; height:40px; }

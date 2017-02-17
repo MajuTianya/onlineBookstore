@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+body{margin:0px; padding:0px; font-size:10pt; color:#404040; }
+#mainDiv{margin-left:auto; margin-right:auto; margin-top:40px; display:inline-block; }
+#orderDiv{width:900px; font-weight:900; font-size:15px; padding:20px; margin-left:30px; }
+table{font-size:10pt; width:750px; }
+#contentDiv{margin-left:50px; width:800px; border:2px solid #f2e2d4; padding-top:10px; padding-bottom:10px; padding-left:20px; padding-right:20px;  }
+#div2{border-bottom:1px solid #f2e2d4; }
+dt{font-weight:900; font-size:15px; margin:5px; }
+.th{height:30px; background-color:#f9f8f3; border-top:1px solid #e1ddd4; border-bottom:1px solid #e1ddd4; }
+.bookname{overflow:hidden; text-overflow:ellipsis; word-break:keep-all; white-space:nowrap; width:300px;  }
+.td{border-bottom:1px solid #f0f0f0; }
+.price_t{font-family:Arial; font-weight:bold; font-size:15px; color:#c30; margin-right:10px; }
+a{text-decoration:none; color:#018bd3; }
+a:visited{color:#018bd3; }
+a:hover{text-decoration:underline; color:#ff6600; }
+.pay{background:url(/majupublish01/images/sprites_orderdetails.gif) no-repeat 0px -200px; display:inline-block; width:142px; height:34px;  }
+#cancel{background:url(/majupublish01/images/hei_1_btn.jpg) no-repeat; display:inline-block; width:142px; height:34px; font-size:20px; font-weight:900; text-align:left; color:#fff; padding-top:6px; padding-left:30px; text-decoration:none; }
+#confirm{background:url(/majupublish01/images/confirm.jpg) no-repeat; display:inline-block; width:142px; height:34px; font-size:20px; font-weight:900; text-align:left; color:#fff; padding-top:6px; padding-left:30px; text-decoration:none;}

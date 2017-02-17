@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+body{background-color:#f5f5f5; text-align:center;  }
+#divMain{margin-left:auto; margin-right:auto; margin-top:30px; width:950px; }/*定好最大div的宽度，就不会因为浏览器大小移位了*/
+#contentDiv{display:inline-block; width:938px; height:380px; background-color:#f4f4f4; border:1px solid #d1d1cf; float:left; margin-top:30px; margin-bottom:30px; }
+#contentDiv2{ width:934px; height:376px; background-color:#ffffff; margin:2px; }
+#divLeft{float:left; margin-left:10px; margin-top:10px; }
+#imgZj{width:480px; }
+#divRight{display:inline-block; width:440px; height:370px; }
+#divTop{padding:40px 30px 20px 30px;  }
+#loginTop{display:inline-block; float:left; color:#696969; font-size:20px; font-weight:500; }
+#registBtn{background:url(/majupublish01/images/regist_s.png) no-repeat; width:60px; height:30px; display:inline-block; margin-left:230px; }
+#registBtn:hover{background:url(/majupublish01/images/regist_s2.png) no-repeat; width:60px; height:30px; }
+table{margin-left:30px; font-size:10pt; color:#404040; text-align:left; }
+.errorClass{color:#cc3300; font-weight:900; }
+.inputClass{width:235px; height:26px; border:1px solid #d9d9d9; padding-left:8px; padding-top:4px; }
+#verifyCode{width:90px; height:26px; border:1px solid #d9d9d9; margin-right:30px; padding-left:8px; padding-top:4px; vitical-align:middle; }
+#imgVerifyCode{width:70px; height:26px; border:1px solid #000; margin-right:30px; vertical-align:middle; }

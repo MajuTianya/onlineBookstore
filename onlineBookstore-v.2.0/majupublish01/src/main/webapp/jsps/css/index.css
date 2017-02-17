@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+body{margin:0px; padding:0px; background-color:#fefefe; }
+.mjcbDiv{text-align:center; }
+.topBannerDiv,.bottomDiv,.menuDiv{width:940px; margin-left:auto; margin-right:auto; margin-top:0px; }
+.iframe{width:100%; }
+.bodyDiv{width:940px; margin-left:auto; margin-right:auto; margin-top:0px; }
+.menuDiv{position:absolute; top:152px; }

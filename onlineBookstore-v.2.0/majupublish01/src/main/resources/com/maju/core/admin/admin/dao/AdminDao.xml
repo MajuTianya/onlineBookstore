@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maju.core.admin.admin.dao.AdminDao">
+	<resultMap id="admin" type="com.maju.core.admin.admin.bean.Admin">
+		<result property="adminId" column="adminId" />
+		<result property="adminname" column="adminname" />
+		<result property="adminpwd" column="adminpwd" />
+	</resultMap>
+	
+	<!-- getAdminByName :通过登录名称查找admin-->
+	<select id="getAdminByName" parameterType="String" resultMap="admin">
+		select * from t_admin
+		<where>
+			<if test="adminname != null">
+			adminname = #{adminname}
+			</if>
+		</where>
+	</select>
+</mapper>

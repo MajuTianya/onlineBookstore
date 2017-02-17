@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+body{margin:0px; padding:0px; height:60px; }
+#menu{width:940px; height:200px; }
+#oneUl{display:inline-block; }
+span{font-family:Arial; font-size:13px; display:block; margin-right:5px; }
+a{text-decoration:none; color:#998a62; display:block; font:15px "微软雅黑"; }
+.twoUl{display:none; background-color:#f6f5ea; border-bottom:1px solid #bbb69b; }
+.oneLi{padding:5px 10px 5px 0px; float:left; border-top:1px solid #fff; }
+.oneLi:hover{background-color:#f6f5ea; border-top:1px solid #bbb69b; }
+.oneLi:hover .twoUl{display:block; position:absolute; top:30px; left:0px; width:940px; }
+.twoLi{padding:5px 0px 5px 0px; float:left; text-align:center; margin-right:10px; }
+.twoLi:hover{background-color:#76af2d; }
+.twoLi a{font:13px "微软雅黑"; }
+.twoLi:hover a{color:#f6f5ea; }

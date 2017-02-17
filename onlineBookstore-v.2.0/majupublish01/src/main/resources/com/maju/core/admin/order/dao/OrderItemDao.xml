@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maju.core.admin.order.dao.OrderItemDao">
+	<resultMap id="orderItem" type="com.maju.core.admin.order.bean.OrderItem">
+		<result property="orderItemId" column="orderItemId" />
+		<result property="quantity" column="quantity" />
+		<result property="subtotal" column="subtotal" />
+		<result property="bid" column="bid" />
+		<result property="bname" column="bname" />
+		<result property="currPrice" column="currPrice" />
+		<result property="image_b" column="image_b" />
+		<result property="oid" column="oid" />
+	</resultMap>
+	
+	<!-- getOrderItemByOid :根据oid获得订单详细商品-->
+	<select id="getOrderItemByOid" parameterType="String" resultMap="orderItem">
+		select * from t_orderitem
+		<where>
+			oid=#{oid}
+		</where>
+	</select>
+	
+</mapper>

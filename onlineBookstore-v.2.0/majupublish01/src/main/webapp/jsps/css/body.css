@@ -1,0 +1,47 @@
+@CHARSET "UTF-8";
+body{margin:35px 0px; padding:0px; font-size:10pt; align:center; }
+#mainDiv{margin:15px 0px; padding:0px; }
+#bannerDiv{text-align:center; height:300px;  } 
+#bannerDiv Div{ margin-left:auto; margin-right:auto; POSITION: absolute; HEIGHT: 300px; } 
+#bannerDiv img{width:940px; height:300px; }
+.smask {z-index:-1; }
+ul,li{list-style-type:none; }
+#bannerNav{width:81px; height:8px; z-index:5; position:absolute; top:280px; right:20px; }
+#bannerNav li{width:15px; height:8px; background-color:#666; color:#fff; float:left; margin-right:5px; }
+#bannerNav .current{background-color:#347e0d; }
+
+.index_hr{width:940px; border-bottom:5px solid #f2f1e2; margin-top:30px; }
+.content{margin:0px; padding:0px; display:inline-block; }
+.contentTitle{width:940px; height:30px; font:16px/30px "微软雅黑"; color:#998a62; margin:10px 0px 10px 10px; }
+.content ul{width:940px; height:auto; float:left; overflow: hidden; margin:0px; padding:0px; }
+.content ul li{width:300px; height:170px; float:left; overflow:hidden; margin:0px 10px 10px 0px; padding:0px; border-left:1px solid #f2f1e2; border-bottom:1px solid #f2f1e2; }
+.content ul li dl{margin:0px; padding:0px; }
+.content ul li dt{width:120px; height:120px; display:inline; margin:0px; padding:0px; float:left; }
+.content ul li dt img{width:120px; height:120px; display:inline; margin:0px; padding:0px; }
+.content ul li dd{width:170px; height:auto; display:inline; float:left; margin:0px; padding:0px; }
+a{text-decoration:none; }
+.content .bookname{font:15px/25px Arial; color:#eb4c89; font-weight:550; }
+.content .bookname:hover{text-decoration:underline; color:#997e11; }
+.content .bookauthor{font:12px/28px Arial; color:#998f77; }
+.content .bookauthor:hover{text-decoration:underline; color:#998f00; }
+.content img{border-size:0px; width:50px; height:37px; }
+
+.contentAuthor{margin:0px 0px; padding:0px; }
+.contentAuthorList{margin:0px; padding:0px; display:inline-block; }
+.contentAuthorTitle{width:940px; height:30px; font:16px/30px "微软雅黑"; color:#998a62; margin:10px 0px 10px 0px; float:left; }
+.moreAuthor{float:right; margin-right:10px; line-height:30px; }
+.contentAuthorTitle a{font:12px/25px "微软雅黑"; color:#f15c89; text-decoration:underline; margin:2px 2px; }
+.contentAuthorTitle a:hover{color:#1d94de; }
+.contentAuthorList ul{width:940px; height:auto; float:left; overflow:hidden; margin:0px; padding:0px; }
+.contentAuthorList ul li{width:450px; height:auto; float:left; overflow:hidden; margin:0px 10px 20px 0px; padding:0px; border-right:1px solid #f2f1e2; }
+.contentAuthorList ul li dl{margin:0px; padding:0px; }
+.contentAuthorList ul li dt{width:90px; height:90px; display:inline; margin:0px; padding:0px; float:left; }
+.contentAuthorList ul li dt img{width:90px; height:90px; display:inline; margin:0px; padding:0px; }
+.contentAuthorList ul li dd{width:340px; height:150px; display:inline; float:left; margin:0px 10px; padding:0px; border-bottom:1px solid #f2f1e2; }
+.contentAuthorList .authorName{font:16px/25px Arial, Helvetica, sans-serif; color:#ea4c89; }
+.contentAuthorList .works{font:12px/25px Arial, Helvetica, sans-serif; color:#8893b0; }
+.contentAuthorList .works a{color:#8893b0; }
+.contentAuthorList .works a:hover{color:#997e11; }
+.contentAuthorList .authorInfo{font:12px/20px Arial, Helvetica, sans-serif; color:#333; }
+
+

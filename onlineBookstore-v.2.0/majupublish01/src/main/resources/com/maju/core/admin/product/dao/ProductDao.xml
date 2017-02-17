@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.maju.core.admin.product.dao.ProductDao">
+	<resultMap id="product" type="com.maju.core.admin.product.bean.Product">
+		<result property="bid" column="bid" />
+		<result property="bname" column="bname" />
+		<result property="author" column="author" />
+		<result property="price" column="price" />
+		<result property="currPrice" column="currPrice" />
+		<result property="discount" column="discount" />
+		<result property="press" column="press" />
+		<result property="publishtime" column="publishtime" />
+		<result property="edition" column="edition" />
+		<result property="pageNum" column="pageNum" />
+		<result property="wordNum" column="wordNum" />
+		<result property="printtime" column="printtime" />
+		<result property="booksize" column="booksize" />
+		<result property="cid" column="cid" />
+		<result property="image_w" column="image_w" />
+		<result property="image_b" column="image_b" />
+		<result property="bookList" column="bookList" />
+	</resultMap>
+	
+	<!-- getOrderCount :获取商品数量-->
+	<select id="getProductCount" parameterType="com.maju.core.admin.product.bean.Product" resultType="Integer">
+		select count(1) from t_book 
+		<where>
+			<if test="bname != null and bname != ''">
+			bname like '%${bname}%'
+			</if>
+			<if test="author != null and author != ''">
+			and author like '%${author}%'
+			</if>
+			<if test="press != null and press != ''">
+			and press like '%${press}%'
+			</if>
+			<if test="cid != null and cid != ''">
+			and cid = #{cid}
+			</if>
+		</where>
+	</select>
+	
+	<!-- getAllOrderWithPage :分页获取商品-->
+	<select id="getAllProductWithPage" resultMap="product">
+		select * from t_book 
+		<where>
+			<if test="product.bname != null and product.bname != ''">
+			bname like '%${product.bname}%'
+			</if>
+			<if test="product.author != null and product.author != ''">
+			and author like '%${product.author}%'
+			</if>
+			<if test="product.press != null and product.press != ''">
+			and press like '%${product.press}%'
+			</if>
+			<if test="product.cid != null and product.cid != ''">
+			and cid = #{product.cid}
+			</if>
+		</where>
+		order by orderBy desc limit #{startRow},#{pageSize}
+	</select>
+	
+	<!-- addProduct :添加商品-->
+	<insert id="addProduct" parameterType="com.maju.core.admin.product.bean.Product" >
+		insert into 
+		t_book
+		<trim prefix="(" suffix=")">
+			bid,
+			bname,
+			author,
+			price,
+			currPrice,
+			discount,
+			press,
+			publishtime,
+			edition,
+			pageNum,
+			wordNum,
+			printtime,
+			booksize,
+			paper,
+			cid,
+			image_w,
+			image_b,
+			bookList
+		</trim>
+		values
+		<trim prefix="(" suffix=")">
+			#{bid},
+			#{bname},
+			#{author},
+			#{price},
+			#{currPrice},
+			#{discount},
+			#{press},
+			#{publishtime},
+			#{edition},
+			#{pageNum},
+			#{wordNum},
+			#{printtime},
+			#{booksize},
+			#{paper},
+			#{cid},
+			#{image_w},
+			#{image_b},
+			#{bookList}
+		</trim>
+	</insert>
+	
+	<!-- getProductById :根据ID获取商品-->
+	<select id="getProductById" parameterType="String" resultMap="product">
+		select * from t_book 
+		<where>
+			bid = #{id}
+		</where>
+	</select>
+	
+	<!-- updateProduct :跟新商品信息-->
+	<update id="updateProduct" parameterType="com.maju.core.admin.product.bean.Product" >
+		update t_book
+		<set>
+			bname=#{bname},
+			author=#{author},
+			price=#{price},
+			currPrice=#{currPrice},
+			discount=#{discount},
+			press=#{press},
+			publishtime=#{publishtime},
+			edition=#{edition},
+			pageNum=#{pageNum},
+			wordNum=#{wordNum},
+			printtime=#{printtime},
+			booksize=#{booksize},
+			paper=#{paper},
+			cid=#{cid},
+			image_w=#{image_w},
+			image_b=#{image_b},
+			bookList=#{bookList}
+		</set>
+		<where>
+		bid=#{bid}
+		</where>
+	</update>
+	
+	<!-- deleteProductByKey :删除单个商品-->
+	<delete id="deleteProductByKey" parameterType="String">
+		delete from t_book
+		<where>
+			bid=#{id}
+		</where>
+	</delete>
+	
+	<!-- 根据ids删除商品记录 -->
+	<delete id="deleteProductByKeys" parameterType="String">
+		delete from t_book
+		<where>
+			bid in
+			<foreach collection="array" open="(" close=")" item="id" separator=",">
+				#{id}
+			</foreach>
+		</where>
+	</delete>
+	
+</mapper>
