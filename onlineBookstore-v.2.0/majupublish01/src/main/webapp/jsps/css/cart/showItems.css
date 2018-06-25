@@ -12,5 +12,5 @@ a:hover{decoration:underline; color:#ff6600; }
 .price_x{color:#c30; font-family:Arial; font-weight:bold; font-size:10pt; }
 .price_zj{color:#c30; font-family:Arial; font-weight:bold; font-size:15pt; }
 #address{width:450px; height:25px; line-height:25px; padding-left:5px; border:1px solid #d0d0d0; }
-#submitBtn{text-decoration:none; background:url(/majupublish01/images/icon2.png) no-repeat; display:inline-block; background-position:0px -35px; height:40px; width:190px; text-align:center; color:#fff; font-size:24px; font-weight:900px; font-family:黑体; line-height:40px; }
-#submitBtn:hover{text-decoration:none; background:url(/majupublish01/images/icon2.png) no-repeat; display:inline-block; background-position:0px -75px;}
+#submitBtn{text-decoration:none; background:url(/images/icon2.png) no-repeat; display:inline-block; background-position:0px -35px; height:40px; width:190px; text-align:center; color:#fff; font-size:24px; font-weight:900px; font-family:黑体; line-height:40px; }
+#submitBtn:hover{text-decoration:none; background:url(/images/icon2.png) no-repeat; display:inline-block; background-position:0px -75px;}

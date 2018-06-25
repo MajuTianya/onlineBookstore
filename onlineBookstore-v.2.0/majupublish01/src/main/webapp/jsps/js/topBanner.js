@@ -11,9 +11,9 @@ $(function(){
 	 * 为search添加hover时间
 	 */
 	$("#search img").hover(function(){
-		$(this).attr("src","/majupublish/images/search2.png");
+		$(this).attr("src","/images/search2.png");
 	},function(){
-		$(this).attr("src","/majupublish/images/search.png");
+		$(this).attr("src","/images/search.png");
 	});
 	
 }); 

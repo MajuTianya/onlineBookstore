@@ -61,9 +61,9 @@ public class SpringmvcInterceptor implements HandlerInterceptor{
 			//必须登陆
 			if(null == adminUser){
 				if(request.getParameter("returnUrl") != null){
-					response.sendRedirect(ConstantsCommon.PORT_NAME_URL+ConstantsCommon.PROJECT_NAME_URL+"/toLogin.do?returnUrl="+request.getParameter("returnUrl"));
+					response.sendRedirect(ConstantsCommon.PORT_NAME_URL+"/toLogin.do?returnUrl="+request.getParameter("returnUrl"));
 				}else{
-					response.sendRedirect(ConstantsCommon.PORT_NAME_URL+ConstantsCommon.PROJECT_NAME_URL+"/toLogin.do");
+					response.sendRedirect(ConstantsCommon.PORT_NAME_URL+"/toLogin.do");
 				}
 				return false;
 			}

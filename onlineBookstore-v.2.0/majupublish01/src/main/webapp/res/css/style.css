@@ -136,14 +136,14 @@ a.u:hover{text-decoration:none}
 
 /*box*/
 .bx{border:1px solid #ccc;background-color:#fff;clear:both}
-.bx .tl,.bx .tr,.bx .fl,.bx .fr{position:absolute;width:5px;height:5px;font-size:0px;background:url("/majupublish01/res/maju/img/com/bx.gif") no-repeat}
+.bx .tl,.bx .tr,.bx .fl,.bx .fr{position:absolute;width:5px;height:5px;font-size:0px;background:url("/res/maju/img/com/bx.gif") no-repeat}
 .bx .tl{top:-1px;left:-1px;background-position:0 0}
 .bx .tr{top:-1px;right:-1px;background-position:-5px 0px}
 .bx .fl{bottom:-1px;left:-1px;background-position:0px -5px}
 .bx .fr{bottom:-1px;right:-1px;background-position:-5px -5px}
 
-.bx_3x3{position:relative;border:1px solid #dfdfdf;background:#fff url("/majupublish01/res/maju/img/com/bg_h240.gif") repeat-x bottom;clear:both}
-.bx_3x3 .tl,.bx_3x3 .tr,.bx_3x3 .fl,.bx_3x3 .fr{position:absolute;width:3px;height:3px;font-size:0px;background:url("/majupublish01/res/maju/img/com/bx5.gif") no-repeat}
+.bx_3x3{position:relative;border:1px solid #dfdfdf;background:#fff url("/res/maju/img/com/bg_h240.gif") repeat-x bottom;clear:both}
+.bx_3x3 .tl,.bx_3x3 .tr,.bx_3x3 .fl,.bx_3x3 .fr{position:absolute;width:3px;height:3px;font-size:0px;background:url("/res/maju/img/com/bx5.gif") no-repeat}
 .bx_3x3 .tl{top:-1px;left:-1px;background-position:0 0}
 .bx_3x3 .tr{top:-1px;right:-1px;background-position:-3px 0px}
 .bx_3x3 .fl{bottom:-1px;left:-1px;background-position:0px -3px}
@@ -160,7 +160,7 @@ a.u:hover{text-decoration:none}
 .bor_h{border-bottom:2px solid #007ac9}
 
 .box_orange{position:relative;border:1px solid #feb62c;background-color:#fefee4}
-.box_orange .tl,.box_orange .tr,.box_orange .fl,.box_orange .fr{position:absolute;width:2px;height:2px;font-size:0px;background:url("/majupublish01/res/maju/img/com/bx4.gif") no-repeat}
+.box_orange .tl,.box_orange .tr,.box_orange .fl,.box_orange .fr{position:absolute;width:2px;height:2px;font-size:0px;background:url("/res/maju/img/com/bx4.gif") no-repeat}
 .box_orange .tl{top:-1px;left:-1px;background-position:0 0}
 .box_orange .tr{top:-1px;right:-1px;background-position:-2px 0px}
 .box_orange .fl{bottom:-1px;left:-1px;background-position:0px -2px}
@@ -206,7 +206,7 @@ hr{border:solid #ccc;border-width:0 0 1px;height:1px;margin:0;padding:0}
 ul.form samp,.tab samp{margin-right:4px;color:#f00}
 
 .form .pos{position:relative;vertical-align:top;color:#333;padding-right:1px;white-space:normal}
-.form .tip{padding:2px 6px 2px 24px;line-height:20px;background:url("/majupublish01/res/maju/img/com/msg_bg.png") no-repeat}
+.form .tip{padding:2px 6px 2px 24px;line-height:20px;background:url("/res/maju/img/com/msg_bg.png") no-repeat}
 .form .okTip{background-position:4px -246px}
 .form .warningTip{border:1px solid #40b3ff;background-color:#e5f5ff;background-position:4px -146px}
 .form .errorTip{color:#e59700;border:1px solid #e59700;background-color:#fff2f2;background-position:4px 4px}
@@ -220,13 +220,13 @@ ul.form .medium{}
 ul.form .large{}
 ul.form label{float:left;display:block;padding-top:4px;text-align:right;color:#666;white-space:nowrap}
 ul.form span{float:left}
-ul.form .bg_text{position:relative;width:190px;height:26px;margin-right:4px;background:url("/majupublish01/res/img/gray/bg_text.gif") no-repeat}
+ul.form .bg_text{position:relative;width:190px;height:26px;margin-right:4px;background:url("/res/img/gray/bg_text.gif") no-repeat}
 ul.form .bg_text input{width:184px;height:20px;height:16px !important;padding:6px 0 0 6px;border:0;background-color:transparent}
 ul.form .bg_text .def{position:absolute;top:0;left:0;width:184px;height:20px;padding:6px 0 0 6px}
 ul.form .small{width:112px;background-position:0 -26px}
 ul.form .small input{width:106px}
 ul.form dl{float:left}
-ul.form dl dt{height:20px;padding:6px 0 0 6px;color:#333;cursor:default;background:url("/majupublish01/res/img/gray/sel.gif") no-repeat 96% 0}
+ul.form dl dt{height:20px;padding:6px 0 0 6px;color:#333;cursor:default;background:url("/res/img/gray/sel.gif") no-repeat 96% 0}
 ul.form dl dt.hover{background-position:96% -26px}
 ul.form dl dd{position:absolute;top:26px;left:0;z-index:2;width:188px;border:solid #e4e4e4;border-width:0 1px 1px;background-color:#fff;overflow:hidden}
 ul.form dl dd a{display:block;height:25px;line-height:25px;margin-bottom:-1px;text-indent:6px;border-bottom:1px dashed #e4e4e4}
@@ -235,7 +235,7 @@ ul.form li{float:left;width:100%;margin:8px auto 0}
 ul.form li.first{margin-top:0}
 ul.form li img{vertical-align:middle}
 ul.form li.okTip,ul.form li.errorTip{width:97%;margin-top:4px;padding:4px 1%;line-height:20px;text-align:center;background-color:#ffc}
-ul.form li.dev{position:absolute;left:21px;bottom:44px;padding:8px 0;background:url("/majupublish01/res/maju/img/shop/dev.gif") repeat-x}
+ul.form li.dev{position:absolute;left:21px;bottom:44px;padding:8px 0;background:url("/res/maju/img/shop/dev.gif") repeat-x}
 ul.form li.dev samp{margin:0 4px}
 ul.form li.okTip{color:#14b22a;border:1px solid #14b22a}
 ul.form li .word{padding-top:4px}
@@ -243,13 +243,13 @@ ul.form li p{line-height:22px}
 ul.form li .tip{position:absolute;top:0;left:0;z-index:2;display:block;width:320px}
 ul.form li .w176{width:176px}
 ul.form li .code{width:72px;height:24px;margin-right:6px;cursor:pointer;border:1px solid #e3e3e3}
-ul.form li .color{width:18px;height:18px;font-size:0;vertical-align:middle;cursor:pointer;background:url("/majupublish01/res/maju/img/admin/color.gif") no-repeat}
+ul.form li .color{width:18px;height:18px;font-size:0;vertical-align:middle;cursor:pointer;background:url("/res/maju/img/admin/color.gif") no-repeat}
 
-.date{height:20px;background:#fff url("/majupublish01/res/maju/img/com/date.gif") no-repeat 98% 50%;border:1px solid;border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea}
+.date{height:20px;background:#fff url("/res/maju/img/com/date.gif") no-repeat 98% 50%;border:1px solid;border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea}
 .date:hover{border-color:#5794bf #b7d5ea #c7e2f1 #c5daed}
 
 /*back to top*/
-.pageTop{position:fixed!important;position:absolute;z-index:999;right:100px;bottom:10px;display:block;width:43px;height:13px;text-indent:-99999px;background:#4f9cd3 url("/majupublish01/res/img/gray/top.gif") no-repeat}
+.pageTop{position:fixed!important;position:absolute;z-index:999;right:100px;bottom:10px;display:block;width:43px;height:13px;text-indent:-99999px;background:#4f9cd3 url("/res/img/gray/top.gif") no-repeat}
 .timer{position:fixed!important;position:absolute;z-index:999;right:10px;top:180px;width:150px}
 .timer .cont{padding:10px 0;text-align:center;border:solid #ccc;border-width:0 1px 1px}
 .timer .time{color:#fb0a0a;font-size:18px;line-height:24px}
@@ -258,10 +258,10 @@ ul.form li .color{width:18px;height:18px;font-size:0;vertical-align:middle;curso
 #bgWindow{position:fixed!important;position:absolute;z-index:10010;top:0;left:0;width:100%;background-color:#ccc;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5}
 #bgWindowIframe{position:absolute;visibility:inherit;top:0;left:0;z-index:-1;width:100%;filter:alpha(opacity=0);-moz-opacity:0;opacity:0}
 .alt{position:fixed!important;position:absolute;z-index:10011;width:500px}
-.alt .fl,.alt .fr{position:absolute;width:5px;height:5px;font-size:0px;background:url("/majupublish01/res/maju/img/com/bx3.gif") no-repeat}
+.alt .fl,.alt .fr{position:absolute;width:5px;height:5px;font-size:0px;background:url("/res/maju/img/com/bx3.gif") no-repeat}
 .alt .fl{bottom:-1px;left:-1px;background-position:0px -5px}
 .alt .fr{bottom:-1px;right:-1px;background-position:-5px -5px}
-.alt .close{position:absolute;top:11px;right:10px;display:block;width:13px;height:13px;font-size:0;cursor:pointer; background:url("/majupublish01/res/maju/img/com/close.gif") no-repeat}
+.alt .close{position:absolute;top:11px;right:10px;display:block;width:13px;height:13px;font-size:0;cursor:pointer; background:url("/res/maju/img/com/close.gif") no-repeat}
 .alt .close:hover{background-position:0 -13px}
 .alt .h2{background-position:0 -204px}
 .alt .h2 em{background-position:0 -238px}
@@ -285,11 +285,11 @@ ul.form li .color{width:18px;height:18px;font-size:0;vertical-align:middle;curso
 .msg dd input{vertical-align:middle}
 .msg dd a{font-family:"宋体"}
 
-.okMsg,.failMsg{width:68%;margin:50px auto;padding:12px 0 8px 50px;text-align:left;font-size:16px;font-weight:bold;background:url("/majupublish01/res/maju/img/com/msg.gif") no-repeat}
+.okMsg,.failMsg{width:68%;margin:50px auto;padding:12px 0 8px 50px;text-align:left;font-size:16px;font-weight:bold;background:url("/res/maju/img/com/msg.gif") no-repeat}
 .okMsg{color:#58a74b}
 .failMsg{color:#f90;background-position:0 -102px}
 
-.warningMsg{width:64%;padding-left:26%;margin:25px auto;text-align:left;background:url("/majupublish01/res/maju/img/com/warning.png") no-repeat}
+.warningMsg{width:64%;padding-left:26%;margin:25px auto;text-align:left;background:url("/res/maju/img/com/warning.png") no-repeat}
 .warningMsg p{margin-top:8px;line-height:20px}
 
 .dl_help{width:98%;margin:10px auto 0;text-align:left;overflow:hidden}
@@ -305,41 +305,41 @@ ul.form li .color{width:18px;height:18px;font-size:0;vertical-align:middle;curso
 .ad218x364,.ad218x364 img{width:218px;height:364px}
 
 /*button*/
-.btn60x26{width:60px;height:26px;background:url("/majupublish01/res/maju/img/com/btn60x26.gif") no-repeat}
+.btn60x26{width:60px;height:26px;background:url("/res/maju/img/com/btn60x26.gif") no-repeat}
 .btn60x26:hover{color:#f50}
 
-.btn66x23{width:66px;height:23px;background:url("/majupublish01/res/img/gray/btn66x23.gif") no-repeat}
+.btn66x23{width:66px;height:23px;background:url("/res/img/gray/btn66x23.gif") no-repeat}
 .btn66x23:hover{color:#f50}
 a.btn66x23{text-align:center;line-height:23px}
 
-.btn96x23,.btn96x23b{width:96px;height:23px;background:url("/majupublish01/res/img/gray/btn96x23.png") no-repeat}
+.btn96x23,.btn96x23b{width:96px;height:23px;background:url("/res/img/gray/btn96x23.png") no-repeat}
 .btn96x23{background-position:0 0}
 .btn96x23b{background-position:0 -23px}
 a.btn96x23,a.btn96x23b{text-align:center;line-height:23px}
 
-.btn52x21,.btn52x21b,.btn52x21c{width:52px;height:21px;background:url("/majupublish01/res/img/gray/btn52x21.gif") no-repeat}
+.btn52x21,.btn52x21b,.btn52x21c{width:52px;height:21px;background:url("/res/img/gray/btn52x21.gif") no-repeat}
 a.btn52x21,a.btn52x21b{text-align:center;line-height:21px}
 .btn52x21{background-position:0 0}
 .btn52x21b{background-position:0 -21px}
 .btn52x21c{background-position:0 -42px}
 .btn52x21:hover,.btn52x21b:hover,.btn52x21c:hover{color:#f50}
 
-.btn70x21{width:70px;height:21px;background:url("/majupublish01/res/img/gray/btn70x21.gif") no-repeat}
+.btn70x21{width:70px;height:21px;background:url("/res/img/gray/btn70x21.gif") no-repeat}
 a.btn70x21{text-align:center;line-height:21px}
 
-.btn60x20{width:60px;height:20px;line-height:20px;background:url("/majupublish01/res/img/gray/btn60x20.gif") no-repeat}
+.btn60x20{width:60px;height:20px;line-height:20px;background:url("/res/img/gray/btn60x20.gif") no-repeat}
 .btn60x20:hover{color:#f24503}
 a.btn60x20{text-align:center}
 input.btn60x20{border:0}
 
-.btn100x26a,.btn100x26b,.btn100x26c{width:100px;height:26px;line-height:26px;background:url("/majupublish01/res/img/gray/btn100x26.png") no-repeat}
+.btn100x26a,.btn100x26b,.btn100x26c{width:100px;height:26px;line-height:26px;background:url("/res/img/gray/btn100x26.png") no-repeat}
 .btn100x26a{color:#ae5300;background-position:0 0}
 .btn100x26b{color:#333;background-position:0 -26px}
 .btn100x26c{color:#333;background-position:0 -52px}
 .btn100x26a:hover,.btn100x26b:hover,.btn100x26c:hover{color:#f50}
 a.btn100x26a,a.btn100x26b{text-align:center}
 
-.btn120x30a,.btn120x30b,.btn120x30c{width:120px;height:30px;background:url("/majupublish01/res/img/gray/btn120x30.png") no-repeat}
+.btn120x30a,.btn120x30b,.btn120x30c{width:120px;height:30px;background:url("/res/img/gray/btn120x30.png") no-repeat}
 .btn120x30a{background-position:0 0}
 .btn120x30b{background-position:0 -30px}
 .btn120x30c{color:#fff;font-weight:bold;background-position:0 -60px}
@@ -347,23 +347,23 @@ a.btn100x26a,a.btn100x26b{text-align:center}
 .btn120x30c:hover{color:#fff}
 a.btn120x30a,a.btn120x30b,a.btn120x30c{text-align:center}
 
-.btn136x36a,.btn136x36b{width:136px;height:36px;font-size:16px;font-weight:bold;background:url("/majupublish01/res/img/gray/btn136x36.gif") no-repeat}
+.btn136x36a,.btn136x36b{width:136px;height:36px;font-size:16px;font-weight:bold;background:url("/res/img/gray/btn136x36.gif") no-repeat}
 a.btn136x36a,a.btn136x36b{line-height:36px;text-align:center}
 .btn136x36a{background-position:0 0}
 .btn136x36b{color:#2d7ab8;background-position:0 -36px}
 .btn136x36a:hover,.btn136x36b:hover{color:#f50}
 
-.btn130x36,.btn130x36b,.btn130x36c{width:130px;height:36px;font-size:14px;font-weight:bold;color:#f90;background:url("/majupublish01/res/img/gray/btn130x36.gif") no-repeat}
+.btn130x36,.btn130x36b,.btn130x36c{width:130px;height:36px;font-size:14px;font-weight:bold;color:#f90;background:url("/res/img/gray/btn130x36.gif") no-repeat}
 a.btn130x36,a.btn130x36b,a.btn130x36c,span.btn130x36a,span.btn130x36b,span.btn130x36c{text-align:center;line-height:36px}
 a.btn130x36b,span.btn130x36b{color:#fff;background-position:0 -36px}
 a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 
-.btn138x40,.btn138x40b{width:138px;height:40px;background:url("/majupublish01/res/img/gray/btn138x40.gif") no-repeat}
+.btn138x40,.btn138x40b{width:138px;height:40px;background:url("/res/img/gray/btn138x40.gif") no-repeat}
 .btn138x40b{background-position:0 -40px}
 .btn138x40c{background-position:0 -80px}
 
 /*icon*/
-.icon16x16{width:16px;height:16px;vertical-align:middle;background:url("/majupublish01/res/maju/img/com/icon.gif") no-repeat}
+.icon16x16{width:16px;height:16px;vertical-align:middle;background:url("/res/maju/img/com/icon.gif") no-repeat}
 
 /*ul*/
 .ul,.uls{list-style:none}
@@ -378,18 +378,18 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .x2_150x150 li dl dt{width:156px;padding-left:20px;line-height:22px;font-weight:bold}
 .x2_150x150 li dl dd{width:156px;height:20px;margin-top:1px;padding-left:20px}
 .x2_150x150 li dl dd.h40{height:40px;color:#666;overflow:hidden}
-.x2_150x150 li dl dd.btn176x46{height:34px;padding-top:12px;font-weight:bold;background:url("/majupublish01/res/img/gray/btn176x46.gif") no-repeat}
+.x2_150x150 li dl dd.btn176x46{height:34px;padding-top:12px;font-weight:bold;background:url("/res/img/gray/btn176x46.gif") no-repeat}
 .x2_150x150 li dl dd.btn176x46 span{float:left;font-size:16px;color:#fff}
 .x2_150x150 li dl dd.btn176x46 a{float:right;display:block;width:70px;height:21px;margin:1px 5px 0 0;line-height:21px;text-align:center}
 
-.img48x20 .inb{width:52px;height:20px;padding:5px 0;text-align:center;margin-right:6px;vertical-align:middle;background:url("/majupublish01/res/img/gray/bg52x30.gif") no-repeat}
+.img48x20 .inb{width:52px;height:20px;padding:5px 0;text-align:center;margin-right:6px;vertical-align:middle;background:url("/res/img/gray/bg52x30.gif") no-repeat}
 .img48x20 .inb img{display:inline;width:48px;height:20px;line-height:20px}
 
 .x_48x20{padding-bottom:8px;overflow:hidden}
 .x_48x20 li{float:left;width:92%;margin-top:8px;padding:0 4%;color:#666}
 
 .x3_48x20{padding-bottom:16px;overflow:hidden}
-.x3_48x20 li{float:left;width:186px;margin:16px 0 0 -1px;padding:0 30px;background:url("/majupublish01/res/img/gray/dev.gif") no-repeat}
+.x3_48x20 li{float:left;width:186px;margin:16px 0 0 -1px;padding:0 30px;background:url("/res/img/gray/dev.gif") no-repeat}
 .x3_48x20 li.wp{width:94%}
 .x3_48x20 li h3,.x3_48x20 li h3 a{font-size:30px;font-weight:bold;color:#f80}
 .x3_48x20 li h3 em,.x3_48x20 li h3 a em{color:#4e4e4e}
@@ -434,7 +434,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .x4_153x44{width:96%;margin:0 auto;overflow:hidden}
 .x4_153x44 li{float:left;width:216px;margin-top:8px}
 .x4_153x44 li input{float:left;margin:12px 6px 0 0}
-.x4_153x44 li span,.x4_153x44 li a{float:left;display:block;width:153px;height:44px;text-indent:-99999px;background:url("/majupublish01/res/img/gray/bank.png") no-repeat}
+.x4_153x44 li span,.x4_153x44 li a{float:left;display:block;width:153px;height:44px;text-indent:-99999px;background:url("/res/img/gray/bank.png") no-repeat}
 .x4_153x44 li a:hover,.x4_153x44 li a.here{filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.6}
 .x4_153x44 li .n01{background-position:0 0}
 .x4_153x44 li .n02{background-position:0 -44px}
@@ -457,8 +457,8 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .x_400x160 dl dd.org{margin-top:5px;height:80px;color:#39c;overflow:hidden}
 .x_400x160 .btn{position:absolute;right:30px;top:70px;display:block}
 .x_400x160 span.doing{position:absolute;left:0;top:60px;display:block;width:158px;height:124px;text-indent:-99999px}
-.x_400x160 span.begin{background:url("/majupublish01/res/img/gray/begin.png") no-repeat}
-.x_400x160 span.end{background:url("/majupublish01/res/img/gray/end.png") no-repeat}
+.x_400x160 span.begin{background:url("/res/img/gray/begin.png") no-repeat}
+.x_400x160 span.end{background:url("/res/img/gray/end.png") no-repeat}
 
 .x_400x160b{position:relative;width:928px;margin:10px auto 0;padding:10px;border:1px solid #dfdfdf;overflow:hidden;clear:both}
 .x_400x160b .r{width:55%}
@@ -505,7 +505,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .txtlist li var{margin:0 8px}
 
 .x_h20 li{width:100%;height:20px;line-height:20px}
-.x_h20a li,.x_h20b li{width:90%;padding:0 5%;height:20px;line-height:20px;background:url("/majupublish01/res/maju/img/com/com_li.gif") no-repeat}
+.x_h20a li,.x_h20b li{width:90%;padding:0 5%;height:20px;line-height:20px;background:url("/res/maju/img/com/com_li.gif") no-repeat}
 .x_h20a li{background-position:0 -108px}
 .x_h20b li{background-position:0 -18px}
 
@@ -570,14 +570,14 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 
 /*tip*/
 .tips{height:30px;line-height:30px;font-weight:bold;color:#f50;margin-bottom:2px;background-color:#ff6}
-.tips p{height:30px;background:url("/majupublish01/res/maju/img/com/bg_tip.gif") no-repeat}
+.tips p{height:30px;background:url("/res/maju/img/com/bg_tip.gif") no-repeat}
 .tips p.l{padding-left:10px;background-position:0 0}
 .tips p.r{padding-right:10px;background-position:100% -30px}
-.tips p.r a{display:block;width:22px;height:22px;margin-top:4px;font-size:0;background:url("/majupublish01/res/maju/img/com/tip_close.gif") no-repeat}
+.tips p.r a{display:block;width:22px;height:22px;margin-top:4px;font-size:0;background:url("/res/maju/img/com/tip_close.gif") no-repeat}
 .tips p.r a:hover{background-position:0 -22px}
 
 /*bar*/
-.bar{min-width:950px;height:30px;background:#f5f5f5 url("/majupublish01/res/maju/img/com/bg_bar.gif") repeat-x}
+.bar{min-width:950px;height:30px;background:#f5f5f5 url("/res/maju/img/com/bg_bar.gif") repeat-x}
 .bar .bar_w{position:relative;z-index:10009;width:950px;height:28px;padding-top:2px}
 .bar .bar_w a{color:#707070}
 .bar .bar_w a.orange{color:#f0870c}
@@ -585,17 +585,17 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .bar .bar_w a:hover{color:#f50}
 .bar p.l{padding-left:8px}
 .bar p.l b a{float:left;display:block;width:112px;height:28px;line-height:28px;margin-right:2px;text-align:center}
-.bar p.l b a.here,.bar .l b a:hover{color:#007acb;background:url("/majupublish01/res/maju/img/com/bar_ch.png") no-repeat}
+.bar p.l b a.here,.bar .l b a:hover{color:#007acb;background:url("/res/maju/img/com/bar_ch.png") no-repeat}
 .bar p.l b a:hover{text-decoration:none}
 .bar p.l span{padding-top:4px;color:#707070}
 .bar .r li{position:relative;z-index:10008;float:left;margin-left:-2px}
-.bar .r li.dev{height:24px;padding:4px 6px 0 8px;background:url("/majupublish01/res/maju/img/com/line_bar.gif") no-repeat 100% 50%}
+.bar .r li.dev{height:24px;padding:4px 6px 0 8px;background:url("/res/maju/img/com/line_bar.gif") no-repeat 100% 50%}
 .bar .r li.dev a{display:block}
-.bar .r li.dev a.icon_car{padding-left:24px;background:url("/majupublish01/res/maju/img/com/icon_car.gif") no-repeat}
+.bar .r li.dev a.icon_car{padding-left:24px;background:url("/res/maju/img/com/icon_car.gif") no-repeat}
 .bar .r li.dev a var{margin:0 4px;font-weight:bold}
 .bar .r li.after{background:none}
 .bar .r .sit .sel{position:relative;z-index:10007;display:block;height:23px;padding:3px 6px 1px 8px;_height:19px;_padding-top:3px;border:solid #f5f5f5;border-width:1px 1px 0}
-.bar .r .sit .sel cite{width:8px;height:4px;margin-left:2px;font-size:0;vertical-align:middle;background:url("/majupublish01/res/maju/img/com/arr.gif") no-repeat 0 -4px}
+.bar .r .sit .sel cite{width:8px;height:4px;margin-left:2px;font-size:0;vertical-align:middle;background:url("/res/maju/img/com/arr.gif") no-repeat 0 -4px}
 .bar .r .sit .sel:hover,.bar .r .sit .here{color:#f00;border-color:#e1e1e1 #e1e1e1 #fff;background-color:#fff}
 .bar .r .sit .sel:hover cite,.bar .r .sit .here cite{background-position:0 0}
 .bar .r .sit ul{position:absolute;top:27px;right:0;width:190px;padding:8px 10px;border:1px solid #e1e1e1;background-color:#fff;overflow:hidden}
@@ -607,12 +607,12 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 
 /*head*/
 .header{height:116px}
-.header h1{float:left;width:153px;height:58px;margin:30px 10px 0 0;background:url("/majupublish01/res/maju/img/com/logo153x58.gif") no-repeat}
+.header h1{float:left;width:153px;height:58px;margin:30px 10px 0 0;background:url("/res/maju/img/com/logo153x58.gif") no-repeat}
 .header h1 a{display:block;height:58px;text-indent:-99999px;font-size:0}
-.header .area{float:left;height:62px;margin-top:3px;padding:48px 0 0 130px;background:url("/majupublish01/res/maju/img/com/logo200x110.gif") no-repeat}
+.header .area{float:left;height:62px;margin-top:3px;padding:48px 0 0 130px;background:url("/res/maju/img/com/logo200x110.gif") no-repeat}
 .header .area dl{position:relative;z-index:10006;float:left}
 .header .area dl dt{float:left;height:24px;line-height:24px;font-family:"宋体";white-space:nowrap;cursor:pointer}
-.header .area dl dt samp{width:9px;height:5px;margin-left:4px;font-size:0;vertical-align:middle;background:url("/majupublish01/res/maju/img/com/down.gif") no-repeat 0 -5px}
+.header .area dl dt samp{width:9px;height:5px;margin-left:4px;font-size:0;vertical-align:middle;background:url("/res/maju/img/com/down.gif") no-repeat 0 -5px}
 .header .area dl dt.hover samp{background-position:0 0}
 .header .area dl dt a:hover{color:#8ac3e2;text-decoration:none}
 .header .area dl dd{position:absolute;top:24px;left:-2px;width:432px;box-shadow:0 2px 4px rgba(0, 0, 0, 0.2)}
@@ -626,18 +626,18 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 
 /*nav*/
 .nav{position:relative;z-index:10005;height:35px;margin-top:-35px}
-.nav dl.cla{float:left;width:190px;background:url("/majupublish01/res/maju/img/com/h2a.png") no-repeat}
+.nav dl.cla{float:left;width:190px;background:url("/res/maju/img/com/h2a.png") no-repeat}
 .nav dl.cla dt,.nav ul li .a{font-size:14px;font-weight:bold}
 .nav dl.cla .dt_t{height:32px;line-height:32px;text-align:center}
-.nav dl.cla .dt_t a{display:block;color:#fff;background:url("/majupublish01/res/maju/img/com/li.gif") no-repeat 80% -32px}
+.nav dl.cla .dt_t a{display:block;color:#fff;background:url("/res/maju/img/com/li.gif") no-repeat 80% -32px}
 .nav dl.cla .dt_t a:hover,.nav dl.cla .dt_t a.here{text-decoration:none;color:#f00;background-position:80% 0}
 .nav dl.cla .dd_c{position:absolute;top:32px;left:0;z-index:0;list-style:none;width:186px;padding:4px 0 6px;background-color:#f3fbff;border:solid #71c8f8;border-width:0 2px 2px}
 .nav dl.cla .dd_c dl{width:92%;margin:0 auto;text-align:left}
-.nav dl.cla .dd_c dl dt{height:26px;line-height:26px;padding:4px 1% 0;font-weight:bold;background:url("/majupublish01/res/maju/img/com/li.gif") no-repeat 95% -64px;border-top:1px solid #f3fbff;border-bottom:1px solid #cbeefc;overflow:hidden;clear:both}
+.nav dl.cla .dd_c dl dt{height:26px;line-height:26px;padding:4px 1% 0;font-weight:bold;background:url("/res/maju/img/com/li.gif") no-repeat 95% -64px;border-top:1px solid #f3fbff;border-bottom:1px solid #cbeefc;overflow:hidden;clear:both}
 .nav dl.cla .dd_c dl dt a{display:block}
 .nav dl.cla .dd_c dl dd{float:left;width:47%;height:23px;line-height:23px;padding:4px 1% 0}
 .nav ul{float:right}
-.nav ul li,.nav ul li .a,.nav ul li b{background-image:url("/majupublish01/res/maju/img/com/nav_ch.png")}
+.nav ul li,.nav ul li .a,.nav ul li b{background-image:url("/res/maju/img/com/nav_ch.png")}
 .nav ul li{position:relative;z-index:10004;float:right;height:35px;margin-left:2px;background-repeat:repeat-x;background-position:0 0}
 .nav ul li .a{float:left;display:block;height:35px;background-repeat:no-repeat;background-position:0 -70px}
 .nav ul li .a b{float:left;display:block;height:35px;padding:0 35px;line-height:35px;letter-spacing:2px;color:#007acb;cursor:pointer;background-repeat:no-repeat;background-position:100% -140px}
@@ -645,13 +645,13 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .nav ul li.here{background-position:0 -35px}
 .nav ul li.here a{background-position:0 -105px}
 .nav ul li.here a b{color:#fff;background-position:100% -175px}
-.nav ul li div{position:absolute;top:35px;width:462px;height:160px;border:1px solid #ddd;background:#f9f9f9 url("/majupublish01/res/maju/img/com/bg_nav.gif") repeat-x;box-shadow:0 2px 4px rgba(0, 0, 0, 0.2)}
-.nav ul li div span{position:absolute;top:-6px;display:block;width:9px;height:6px;font-size:0;background:url("/majupublish01/res/maju/img/com/up_nav.gif") no-repeat}
+.nav ul li div{position:absolute;top:35px;width:462px;height:160px;border:1px solid #ddd;background:#f9f9f9 url("/res/maju/img/com/bg_nav.gif") repeat-x;box-shadow:0 2px 4px rgba(0, 0, 0, 0.2)}
+.nav ul li div span{position:absolute;top:-6px;display:block;width:9px;height:6px;font-size:0;background:url("/res/maju/img/com/up_nav.gif") no-repeat}
 .nav ul li div.col2{left:-104px}
 .nav ul li div.col2 span{left:36%}
 .nav ul li div.col4{left:-156px}
 .nav ul li div.col4 span{right:49%}
-.nav ul li div dl{float:left;height:130px;margin-top:15px;padding:0 15px;background:url("/majupublish01/res/maju/img/com/line_nav.gif") no-repeat;overflow:hidden}
+.nav ul li div dl{float:left;height:130px;margin-top:15px;padding:0 15px;background:url("/res/maju/img/com/line_nav.gif") no-repeat;overflow:hidden}
 .nav ul li div dl dt{line-height:24px;color:#666;font-weight:bold}
 .nav ul li div dl dd{float:left;width:100%;margin-top:5px}
 .nav ul li div dl.col{width:164px;background:none}
@@ -660,7 +660,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .nav ul li div dl.col3{width:102px}
 
 /*search*/
-.sch,.sch .l,.sch .r{background-image:url("/majupublish01/res/maju/img/com/bg_sch.gif")}
+.sch,.sch .l,.sch .r{background-image:url("/res/maju/img/com/bg_sch.gif")}
 .sch{height:40px;background-repeat:repeat-x;background-position:0 0}
 .sch a{color:#333}
 .sch a:hover{color:#f50}
@@ -670,7 +670,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 
 .goto{float:left;position:relative;z-index:10003;margin-right:4px}
 .goto dt{position:relative;z-index:1;float:left;width:96px;cursor:pointer;height:21px;padding:3px 0 0 6px;text-align:center;color:#007acb;border-top:3px solid #fff;overflow:hidden}
-.goto dt i{width:9px;height:5px;margin-left:4px;font-size:0;background:url("/majupublish01/res/maju/img/com/arrow.gif") no-repeat 0 -5px}
+.goto dt i{width:9px;height:5px;margin-left:4px;font-size:0;background:url("/res/maju/img/com/arrow.gif") no-repeat 0 -5px}
 .goto dt.hover{width:94px;border-left:1px solid #dfdfdf;border-right:1px solid #dfdfdf;border-top-color:#fcc900;background-color:#fff}
 .goto dt.hover i{background-position:0 0}
 .goto dd{position:absolute;top:25px;left:0;width:136px;background-color:#fff;border:1px solid #dfdfdf}
@@ -682,11 +682,11 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .sch form select{margin:0 6px}
 
 .cart{position:relative;z-index:10003;width:178px;height:30px;padding:0 10px;margin-top:15px}
-.cart dt{position:absolute;top:2px;right:10px;z-index:1;width:152px;height:25px;line-height:25px;padding-left:26px;cursor:pointer;background:url("/majupublish01/res/maju/img/com/cart.gif") no-repeat}
+.cart dt{position:absolute;top:2px;right:10px;z-index:1;width:152px;height:25px;line-height:25px;padding-left:26px;cursor:pointer;background:url("/res/maju/img/com/cart.gif") no-repeat}
 .cart dt.hover{background-position:0 -25px}
 .cart dt a{float:right;width:45px;height:25px;padding-left:10px}
 .cart dd{position:absolute;top:26px;right:10px;z-index:0;width:350px;border:1px solid #ddd;background-color:#fff;box-shadow:0 2px 4px rgba(0, 0, 0, 0.2)}
-.cart dd h3{width:100%;height:36px;line-height:36px;text-indent:10px;font-size:14px;background:#f8f8f8 url("/majupublish01/res/maju/img/com/cart_h3.gif") repeat-x}
+.cart dd h3{width:100%;height:36px;line-height:36px;text-indent:10px;font-size:14px;background:#f8f8f8 url("/res/maju/img/com/cart_h3.gif") repeat-x}
 .cart dd ul{width:100%;overflow:hidden}
 .cart dd ul li{float:left;width:330px;padding:8px 10px;border-bottom:1px dashed #ccc;overflow:hidden}
 .cart dd ul li:hover,.cart dd ul li.hover{background-color:#f3f3f3}
@@ -712,16 +712,16 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .loc samp{margin:0 6px}
 
 /*buy mode*/
-.mode{position:relative;width:948px;height:150px;margin:10px auto 0;padding:15px 0;background:#f6f6f6 url("/majupublish01/res/maju/img/com/bg_h180.gif") repeat-x;border:1px solid #e5e5e5}
+.mode{position:relative;width:948px;height:150px;margin:10px auto 0;padding:15px 0;background:#f6f6f6 url("/res/maju/img/com/bg_h180.gif") repeat-x;border:1px solid #e5e5e5}
 .mode a{color:#999}
 .mode a:hover{color:#f50}
-.mode .tl,.mode .tr{position:absolute;width:5px;height:5px;font-size:0px;background:url("/majupublish01/res/maju/img/com/bx2.gif") no-repeat}
+.mode .tl,.mode .tr{position:absolute;width:5px;height:5px;font-size:0px;background:url("/res/maju/img/com/bx2.gif") no-repeat}
 .mode .tl{top:-1px;left:-1px;background-position:0 0}
 .mode .tr{top:-1px;right:-1px;background-position:-5px 0px}
 .mode ul{width:945px;margin:0 auto;overflow:hidden}
 .mode li{float:left;width:158px;height:130px;padding:10px 15px;border-left:1px dashed #ccc}
 .mode li.first{border-left:0}
-.mode li span{float:left;display:block;width:36px;height:36px;background:url("/majupublish01/res/maju/img/com/icon36x36.gif") no-repeat}
+.mode li span{float:left;display:block;width:36px;height:36px;background:url("/res/maju/img/com/icon36x36.gif") no-repeat}
 .mode li span.guide{background-position:0 0}
 .mode li span.way{background-position:0 -36px}
 .mode li span.help{background-position:0 -72px}
@@ -733,13 +733,13 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 
 /*footer*/
 .footer{margin-top:10px;line-height:20px;text-align:center;color:#999}
-.footer .i18x22{width:18px;height:22px;margin-right:6px;vertical-align:middle;font-size:0;background:url("/majupublish01/res/maju/img/com/i18x22.gif") no-repeat}
+.footer .i18x22{width:18px;height:22px;margin-right:6px;vertical-align:middle;font-size:0;background:url("/res/maju/img/com/i18x22.gif") no-repeat}
 .footer samp{margin:0 4px}
 .footer a{color:#999}
 .footer a:hover{color:#f50}
 
 /*title*/
-.h2,.h2 em,.h2 cite{background-image:url("/majupublish01/res/img/gray/bg_h2.gif")}
+.h2,.h2 em,.h2 cite{background-image:url("/res/img/gray/bg_h2.gif")}
 .h2{position:relative;width:100%;height:34px;background-repeat:repeat-x;clear:both}
 .h2 em{float:left;height:34px;padding-left:10px;line-height:34px;font-size:14px;color:#4e4e4e;background-repeat:no-repeat}
 .h2 cite{float:right;height:26px;padding:8px 10px 0 0;font-weight:normal;font-size:12px;background-repeat:no-repeat;}
@@ -753,7 +753,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .h2_r{background-position:0 -102px}
 .h2_r em{background-position:0 -136px}
 .h2_r cite{background-position:100% -170px}
-.h2_r samp{position:absolute;top:1px;left:1px;display:block;width:25px;height:25px;font-size:0;background:url("/majupublish01/res/img/gray/h2_hot.gif") no-repeat}
+.h2_r samp{position:absolute;top:1px;left:1px;display:block;width:25px;height:25px;font-size:0;background:url("/res/img/gray/h2_hot.gif") no-repeat}
 
 .h2_r2{background-position:0 34px;border-bottom:1px solid #ccc}
 .h2_r2 em{background-position:0 34px}
@@ -765,7 +765,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 
 .h2_ch{height:40px;background-position:0 -306px}
 .h2_ch em{height:32px;padding-top:8px;background-position:0 -346px}
-.h2_ch em a,.h3_ch em a{float:left;width:118px;height:32px;margin-right:8px;line-height:32px;text-align:center;font-size:12px;color:#4e4e4e;background:url("/majupublish01/res/img/gray/h2_ch.gif") no-repeat}
+.h2_ch em a,.h3_ch em a{float:left;width:118px;height:32px;margin-right:8px;line-height:32px;text-align:center;font-size:12px;color:#4e4e4e;background:url("/res/img/gray/h2_ch.gif") no-repeat}
 .h2_ch em a:hover,.h2_ch em a.here,.h3_ch em a:hover,.h3_ch em a.here{text-decoration:none;font-size:14px;color:#007acb;background-position:0 -32px}
 .h2_ch cite{height:32px;background-position:100% -386px}
 
@@ -773,7 +773,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .h3_ch em{float:left;padding-left:10px}
 
 .h3_ch2{width:98%;margin:10px auto 0;overflow:hidden}
-.h3_ch2 a,.h3_ch2 a span,.h3_ch2 a span b{float:left;display:block;height:29px;line-height:29px;background-image:url("/majupublish01/res/img/gray/h3_ch.gif")}
+.h3_ch2 a,.h3_ch2 a span,.h3_ch2 a span b{float:left;display:block;height:29px;line-height:29px;background-image:url("/res/img/gray/h3_ch.gif")}
 .h3_ch2 a{margin:10px 8px 0 0;background-repeat:repeat-x;background-position:0 0}
 .h3_ch2 a span{background-repeat:no-repeat;background-position:0 -29px}
 .h3_ch2 a span b{padding:0 8px;color:#007be8;font-size:14px;white-space:nowrap;cursor:pointer;background-repeat:no-repeat;background-position:100% -58px}
@@ -787,12 +787,12 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 /*left nav*/
 .left_nav,.left_nav2{width:100%;margin:0 auto;overflow:hidden}
 .left_nav li{float:left;width:100%;height:26px;padding:6px 0;margin-bottom:-1px;border-bottom:1px dashed #ddd}
-.left_nav li a{display:block;width:90%;height:26px;padding:0 5%;line-height:26px;font-weight:bold;color:#4e4e4e;background:url("/majupublish01/res/img/gray/bg_left_nav.gif") no-repeat 94% 0}
+.left_nav li a{display:block;width:90%;height:26px;padding:0 5%;line-height:26px;font-weight:bold;color:#4e4e4e;background:url("/res/img/gray/bg_left_nav.gif") no-repeat 94% 0}
 .left_nav li a img{width:22px;height:22px;margin-right:6px;vertical-align:middle}
 .left_nav li a:hover,.left_nav li a.here{color:#f50;text-decoration:none;background-position:94% -26px}
 
 .left_nav2 li{float:left;width:100%;height:46px;margin-bottom:-1px;border-bottom:1px dashed #ddd}
-.left_nav2 li a{display:block;width:60%;height:46px;padding:0 20%;line-height:46px;font-size:14px;font-weight:bold;color:#4e4e4e;background:url("/majupublish01/res/img/gray/li_h46.gif") no-repeat 80% 0}
+.left_nav2 li a{display:block;width:60%;height:46px;padding:0 20%;line-height:46px;font-size:14px;font-weight:bold;color:#4e4e4e;background:url("/res/img/gray/li_h46.gif") no-repeat 80% 0}
 .left_nav2 li a:hover,.left_nav2 li a.here{color:#f50;text-decoration:none;background-position:80% -46px}
 
 /*hot sort*/
@@ -802,17 +802,17 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .x_50x50 li dl{float:right;width:66%}
 .x_50x50 li dl dt{margin-top:6px;white-space:nowrap}
 .x_50x50 li dl dd{margin-top:4px;font-weight:bold;color:#f80}
-.x_50x50 li var.sfont{position:absolute;top:3px;left:5px;display:block;width:18px;height:18px;line-height:18px;text-align:center;color:#930;font-weight:bold;background:url("/majupublish01/res/img/gray/num2.png") no-repeat;_background:url("/majupublish01/res/img/gray/num2.gif") no-repeat}
+.x_50x50 li var.sfont{position:absolute;top:3px;left:5px;display:block;width:18px;height:18px;line-height:18px;text-align:center;color:#930;font-weight:bold;background:url("/res/img/gray/num2.png") no-repeat;_background:url("/res/img/gray/num2.gif") no-repeat}
 
 .x_150x150{width:100%;margin:0 auto;overflow:hidden}
-.x_150x150 li{position:relative;float:left;width:100%;margin-top:-1px;padding:4px 0 6px;cursor:default;border-top:1px solid #d8d8d8;background:url("/majupublish01/res/img/gray/bg_sort.gif") repeat-x bottom;overflow:hidden}
+.x_150x150 li{position:relative;float:left;width:100%;margin-top:-1px;padding:4px 0 6px;cursor:default;border-top:1px solid #d8d8d8;background:url("/res/img/gray/bg_sort.gif") repeat-x bottom;overflow:hidden}
 .x_150x150 li img{display:none}
 .x_150x150 li dl{margin:0 8px 0 24px;line-height:18px}
 .x_150x150 li dl dt{white-space:nowrap}
 .x_150x150 li dl dd{display:none}
 .x_150x150 li var.sfont{position:absolute;top:3px;left:9px;display:block;width:18px;height:18px;line-height:18px;text-align:center}
 .x_150x150 li.here{padding:13px 0 12px;background:none}
-.x_150x150 li.here var.sfont{color:#fff;font-weight:bold;background:url("/majupublish01/res/img/gray/num.gif") no-repeat}
+.x_150x150 li.here var.sfont{color:#fff;font-weight:bold;background:url("/res/img/gray/num.gif") no-repeat}
 .x_150x150 li.here img{display:block;width:150px;height:150px;line-height:150px;margin:0 auto}
 .x_150x150 li.here dl{width:152px;margin:4px auto 0}
 .x_150x150 li.here dl dd{display:block;height:22px}
@@ -829,11 +829,11 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .flex-control-nav{width:100%;position:absolute;bottom:12px;text-align:center}
 .flex-control-nav li{margin-left:5px;display:inline-block;zoom:1;*display: inline}
 .flex-control-nav li:first-child{margin:0}
-.flex-control-nav li a{display:block;width:13px;height:13px;cursor:pointer;text-indent:-9999px;background:url("/majupublish01/res/img/gray/bg_control_nav.png") no-repeat;_background:url("/majupublish01/res/img/gray/bg_control_nav.gif") no-repeat}
+.flex-control-nav li a{display:block;width:13px;height:13px;cursor:pointer;text-indent:-9999px;background:url("/res/img/gray/bg_control_nav.png") no-repeat;_background:url("/res/img/gray/bg_control_nav.gif") no-repeat}
 .flex-control-nav li a:hover{background-position:0 -13px}
 .flex-control-nav li a.active{cursor:default;background-position:0 -26px}
 
-.flex-direction-nav li a{position:absolute;top:50%;display:block;width:19px;height:50px;margin:-25px 0 0;cursor:pointer;text-indent:-9999px;background: url("/majupublish01/res/img/gray/switch.gif") no-repeat}
+.flex-direction-nav li a{position:absolute;top:50%;display:block;width:19px;height:50px;margin:-25px 0 0;cursor:pointer;text-indent:-9999px;background: url("/res/img/gray/switch.gif") no-repeat}
 .flex-direction-nav li a.next{right:0;background-position: 0 -50px}
 .flex-direction-nav li a.prev{left:0;background-position: 0 0}
 .flex-direction-nav li a.disabled{filter:alpha(opacity=30);-moz-opacity:0.3;opacity:0.3;cursor: default}
@@ -847,7 +847,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 #focus .flex-control-nav a:hover,#focus .flex-control-nav a.active{text-decoration:none;color:#fff;font-weight:bold;border-color:#ddd;background-color:#f50}
 
 /*filter condition*/
-.filter{width:100%;margin:0 auto;padding-top:6px;background:#fff url("/majupublish01/res/img/gray/bg_h38.gif") repeat-x;overflow:hidden}
+.filter{width:100%;margin:0 auto;padding-top:6px;background:#fff url("/res/img/gray/bg_h38.gif") repeat-x;overflow:hidden}
 .filter li{float:left;width:98%;padding:6px 1%;border-bottom:1px dashed #ddd}
 .filter li label,.filter li b{float:left;width:90px;line-height:20px;margin-top:2px;text-align:right;white-space:nowrap}
 .filter li p{overflow:hidden}
@@ -863,7 +863,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .filter li p.sel a:hover cite{background-color:#666}
 .filter li.line{position:relative;z-index:1;height:4px;margin-top:-1px;padding:0;font-size:0;border:1px solid #ddd}
 .filter li.after{border:0}
-.filter li a.btn80x22{position:relative;z-index:2;display:block;width:70px;height:22px;margin:-7px auto 0;padding-left:10px;line-height:22px;text-align:left;border:none;background:url("/majupublish01/res/img/gray/btn80x22.gif") no-repeat}
+.filter li a.btn80x22{position:relative;z-index:2;display:block;width:70px;height:22px;margin:-7px auto 0;padding-left:10px;line-height:22px;text-align:left;border:none;background:url("/res/img/gray/btn80x22.gif") no-repeat}
 .filter li a.close{background-position:0 -22px}
 .filter li a.open{background-position:0 0}
 
@@ -903,7 +903,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .page_c .break{font-weight:bold}
 .page_c .dev{font-size:14px;margin:0 2px}
 
-.sort_type,.sort_type a{background:url("/majupublish01/res/img/gray/sort_type.gif") no-repeat}
+.sort_type,.sort_type a{background:url("/res/img/gray/sort_type.gif") no-repeat}
 .sort_type{float:left;width:203px;height:26px}
 .sort_type a{float:left;line-height:26px;color:#666;text-align:left}
 .sort_type a:hover{text-decoration:none;color:#f00}
@@ -921,7 +921,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .sort_type a.time_up{background-position:-128px -52px}
 
 /*step*/
-.step{height:39px;margin:30px auto;text-align:center;background:url("/majupublish01/res/img/gray/step.gif") no-repeat}
+.step{height:39px;margin:30px auto;text-align:center;background:url("/res/img/gray/step.gif") no-repeat}
 .step li{float:left;width:195px;height:39px;line-height:39px;font-size:14px;text-align:center;font-weight:bold}
 .step li.here{color:#fff}
 
@@ -942,12 +942,12 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .distr dt input{vertical-align:middle}
 .distr dd h3{width:100%;margin:6px auto 0;text-indent:6px;font-size:12px;line-height:24px}
 .distr dd .h4_ch{position:relative;z-index:1;width:936px;margin-bottom:-1px}
-.distr dd .h4_ch a{float:left;width:102px;height:30px;margin-right:-1px;text-align:center;font-size:12px;line-height:30px;font-weight:normal;color:#06f;background:url("/majupublish01/res/img/gray/bg_h4_ch.gif") repeat-x;border:1px solid #dedede}
+.distr dd .h4_ch a{float:left;width:102px;height:30px;margin-right:-1px;text-align:center;font-size:12px;line-height:30px;font-weight:normal;color:#06f;background:url("/res/img/gray/bg_h4_ch.gif") repeat-x;border:1px solid #dedede}
 .distr dd .h4_ch a:hover,.distr dd .h4_ch a.here{text-decoration:none;color:#666;background-position:0 -30px}
 .distr dd table{margin-bottom:10px}
 
-.confirm{position:relative;padding:10px;background:#fff url("/majupublish01/res/maju/img/com/bg_h38.gif") repeat-x;border:1px solid #e5e5e5;clear:both}
-.confirm .tl,.confirm .tr,.confirm .fl,.confirm .fr{position:absolute;width:5px;height:5px;font-size:0px;background:url("/majupublish01/res/maju/img/com/bx3.gif") no-repeat}
+.confirm{position:relative;padding:10px;background:#fff url("/res/maju/img/com/bg_h38.gif") repeat-x;border:1px solid #e5e5e5;clear:both}
+.confirm .tl,.confirm .tr,.confirm .fl,.confirm .fr{position:absolute;width:5px;height:5px;font-size:0px;background:url("/res/maju/img/com/bx3.gif") no-repeat}
 .confirm .tl{top:-1px;left:-1px;background-position:0 0}
 .confirm .tr{top:-1px;right:-1px;background-position:-5px 0px}
 .confirm .fl{bottom:-1px;left:-1px;background-position:0px -5px}
@@ -967,7 +967,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 
 /*exp*/
 .exp{width:210px;margin:8px auto 0;overflow:hidden}
-.exp li{float:left;width:62px;height:62px;background:url("/majupublish01/res/img/gray/icon62x62.gif") no-repeat}
+.exp li{float:left;width:62px;height:62px;background:url("/res/img/gray/icon62x62.gif") no-repeat}
 .exp li.n01{margin-right:12px;background-position:0 0}
 .exp li.n02{margin-right:12px;background-position:0 -62px}
 .exp li.n03{background-position:0 -124px}
@@ -997,7 +997,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .infor .p34x34 img{display:block;width:34px;height:34px;margin:0 auto 4px}
 .infor .form{margin:0}
 .infor .p16x16{overflow:hidden}
-.infor .p16x16 span{padding:0 30px 0 20px;background:url("/majupublish01/res/img/gray/icon16x16.gif") no-repeat}
+.infor .p16x16 span{padding:0 30px 0 20px;background:url("/res/img/gray/icon16x16.gif") no-repeat}
 .infor .p16x16 span.bank{background-position:0 0}
 .infor .p16x16 span.pay{background-position:0 -32px}
 .infor .p16x16 span.moblie{background-position:0 -64px}
@@ -1010,21 +1010,21 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 .infor .box_orange .spec a.here{padding:3px 5px;border:2px solid #fea412}
 .infor .box_orange .spec span{color:#b4b4b4;border:1px solid #d1d1d1}
 .infor .box_orange .spec samp{color:#666;margin:0 2px}
-.infor .sub,.infor .add{width:16px;height:16px;margin-right:6px;background:url("/majupublish01/res/img/gray/icon16x16.gif") no-repeat}
+.infor .sub,.infor .add{width:16px;height:16px;margin-right:6px;background:url("/res/img/gray/icon16x16.gif") no-repeat}
 .infor .sub{background-position:0 -96px}
 .infor .add{background-position:0 -128px}
 .infor .num{width:30px;height:20px;line-height:20px;text-align:center;border:1px solid;border-color:#cfcfcf #cfcfcf #abadb3 #abadb3}
 .infor .submit{padding:10px 0 16px}
 .infor .pre{margin-left:60px;padding-top:4px;overflow:hidden}
-.infor .fav{margin-left:20px;padding-left:20px;background:url("/majupublish01/res/img/gray/icon16x16.gif") no-repeat 0 -288px}
+.infor .fav{margin-left:20px;padding-left:20px;background:url("/res/img/gray/icon16x16.gif") no-repeat 0 -288px}
 
 .showPro{position:relative;float:left;width:300px;text-align:center}
 .showPro .big,.showPro .big2{width:300px;height:300px;margin:0 auto 8px;border:1px solid #ccc}
 .showPro .big2{line-height:300px;text-align:center}
 .showPro .big img{width:300px;height:300px}
-.showPro .big_type{position:absolute;top:12px;left:1px;z-index:10000;width:106px;height:44px;line-height:44px;text-align:center;font-size:14px;color:#fff;background:url("/majupublish01/res/img/gray/big_type.gif") no-repeat}
+.showPro .big_type{position:absolute;top:12px;left:1px;z-index:10000;width:106px;height:44px;line-height:44px;text-align:center;font-size:14px;color:#fff;background:url("/res/img/gray/big_type.gif") no-repeat}
 .showPro .small{position:relative;width:100%;overflow:hidden}
-.showPro .small span{position:absolute;top:12px;display:block;width:16px;height:33px;font-size:0px;text-indent:-99999px;cursor:pointer;background:url("/majupublish01/res/img/gray/arr.gif") no-repeat}
+.showPro .small span{position:absolute;top:12px;display:block;width:16px;height:33px;font-size:0px;text-indent:-99999px;cursor:pointer;background:url("/res/img/gray/arr.gif") no-repeat}
 .showPro .small span.smallL{left:0;background-position:0 0}
 .showPro .small span.smallR{right:0;background-position:0 -33px}
 .showPro .smallBox{position:relative;width:240px;height:54px;margin-left:35px;overflow:hidden}
@@ -1043,14 +1043,14 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 #ecpsShareIcon div a,#ecpsShareIcon div span{vertical-align:middle;display:-moz-inline-block;display:-moz-inline-box;display:inline-block}
 #ecpsShareIcon div a{text-decoration:none}
 #ecpsShareIcon div a:hover{filter:alpha(opacity=80);-moz-opacity:0.8;opacity:0.8}
-#ecpsShareIcon div a.bc{text-align:center;background:url("/majupublish01/res/maju/img/share/counter.gif") no-repeat}
+#ecpsShareIcon div a.bc{text-align:center;background:url("/res/maju/img/share/counter.gif") no-repeat}
 
 #ecpsShareIcon .iconLeft{text-align:left}
 #ecpsShareIcon .iconCenter{text-align:center}
 #ecpsShareIcon .iconRight{text-align:right}
 
 #ecpsShareIcon .iconsmall{border:1px solid #f00}
-#ecpsShareIcon .iconSmall a{height:16px;padding-left:22px;background:url("/majupublish01/res/maju/img/share/jiathis_ico16x16.png") no-repeat}
+#ecpsShareIcon .iconSmall a{height:16px;padding-left:22px;background:url("/res/maju/img/share/jiathis_ico16x16.png") no-repeat}
 #ecpsShareIcon .iconSmall span{height:16px}
 #ecpsShareIcon .iconSmall a.sinawb{background-position:0 -96px}
 #ecpsShareIcon .iconSmall a.qqwb{background-position:0 -144px}
@@ -1065,7 +1065,7 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 #ecpsShareIcon .iconMiddle{}
 #ecpsShareIcon .iconBig{}
 
-.val_no{display:block;width:60px;height:16px;margin-right:6px;text-indent:-99999px;background:url("/majupublish01/res/img/gray/star.png") no-repeat;overflow:hidden}
+.val_no{display:block;width:60px;height:16px;margin-right:6px;text-indent:-99999px;background:url("/res/img/gray/star.png") no-repeat;overflow:hidden}
 .val5{background-position:0 0}
 .val4d1,.val4d2,.val4d3,.val4d4{background-position:0 -16px}
 .val4{background-position:0 -32px}
@@ -1081,13 +1081,13 @@ a.btn130x36c,span.btn130x36c{color:#fff;background-position:0 -72px}
 /*login*/
 .sign{width:844px;height:355px;margin:50px auto 40px;overflow:hidden;clear:both}
 .sign .l{}
-.sign .r{position:relative;width:355px;height:355px;background:url("/majupublish01/res/img/gray/bg355x355.png") no-repeat}
+.sign .r{position:relative;width:355px;height:355px;background:url("/res/img/gray/bg355x355.png") no-repeat}
 .sign h2{width:92%;margin:10px auto 0;font-size:16px;line-height:28px}
 .sign form ul,form ul li.dev{width:314px}
 .sign form ul li label{width:68px}
 
 .set{position:relative;width:721px;margin:20px auto 30px;clear:both;overflow:hidden}
-.set li{position:relative;float:left;width:189px;height:54px;background:url("/majupublish01/res/img/gray/set.png") no-repeat}
+.set li{position:relative;float:left;width:189px;height:54px;background:url("/res/img/gray/set.png") no-repeat}
 .set li p{width:139px;height:39px;padding:16px 39px 0 11px;line-height:39px;text-align:center}
 .set li p var{display:block}
 .set li span{position:absolute;top:0;left:0;width:34px;height:34px;display:block;line-height:34px;color:#c8c8c8;text-align:center;font-size:16px;font-weight:bold;font-family:Arial}

@@ -5,9 +5,9 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Random;
 
 import org.apache.commons.codec.binary.Hex;
-import org.junit.Test;
 
 import com.maju.common.encode.MD5Pwd;
+import org.junit.Test;
 
 /**
  * md5密码加密

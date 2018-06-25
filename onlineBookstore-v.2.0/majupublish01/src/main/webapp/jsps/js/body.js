@@ -69,9 +69,9 @@ $(function(){
 	 * 为go设置hover事件
 	 */
 	$(".content dd img").hover(function(){
-		$(this).attr("src","/majupublish/images/bt_buy2.png");
+		$(this).attr("src","/images/bt_buy2.png");
 	},function(){
-		$(this).attr("src","/majupublish/images/bt_buy.jpg");
+		$(this).attr("src","/images/bt_buy.jpg");
 	});
 	
 	/*

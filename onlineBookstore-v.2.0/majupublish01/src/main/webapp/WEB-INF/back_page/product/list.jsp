@@ -27,7 +27,7 @@ function optDelete(){
 		return false;
 	}
 	return true;
-	//$("#jvForm").attr("action", "/majupublish01/admin/product/deletes.do?");
+	//$("#jvForm").attr("action", "/admin/product/deletes.do?");
 }
 /**
  * 批量上架
@@ -59,7 +59,7 @@ function loadChildren() {
 	$.ajax({
 		async:true,
 		cache:false,
-		url:"/majupublish01/admin/product/ajaxFindChildren.do?pid="+pid,
+		url:"/admin/product/ajaxFindChildren.do?pid="+pid,
 		type:"POST",
 		dataType:"json",
 		success:function(arr) {

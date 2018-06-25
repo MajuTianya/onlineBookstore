@@ -109,12 +109,12 @@ function checkForm() {
 <body bgcolor="#9cdcf9">
 	<table width="681" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:120px">
 	  <tr>
-	    <td width="353" height="259" align="center" valign="bottom" background="/majupublish01/res/maju/img/login/login_1.gif"><table width="318" border="0" cellspacing="3" cellpadding="0" height="20">
+	    <td width="353" height="259" align="center" valign="bottom" background="/res/maju/img/login/login_1.gif"><table width="318" border="0" cellspacing="3" cellpadding="0" height="20">
 	      <tr>
-	        <td align="center" valign="bottom" style="color:#05B8E4"><a href="/majupublish/index.jsp" target="_blank">马驹出版</a></td>
+	        <td align="center" valign="bottom" style="color:#05B8E4"><a href="/index.jsp" target="_blank">马驹出版</a></td>
 	      </tr>
 	    </table></td>
-	    <td width="195" background="/majupublish01/res/maju/img/login/login_2.gif">
+	    <td width="195" background="/res/maju/img/login/login_2.gif">
 	      <form name="form1" method="post" action="<c:url value='/login.do'/>">
 	      <table width="190" height="106" border="0" align="center" cellpadding="2" cellspacing="0">
 	            <tr>
@@ -130,7 +130,7 @@ function checkForm() {
 	            </tr>
 	            <tr>
 	              <td width="60" height="30" align="left">登陆名称：</td>
-	              <td><input name="adminname" type="text" style="background:url(/majupublish01/res/maju/img/login/login_6.gif) repeat-x; border:solid 1px #27B3FE; height:20px; background-color:#FFFFFF" id="username"size="16"></td>
+	              <td><input name="adminname" type="text" style="background:url(/res/maju/img/login/login_6.gif) repeat-x; border:solid 1px #27B3FE; height:20px; background-color:#FFFFFF" id="username"size="16"></td>
 	            </tr>
 	            <tr>
 	              <td width="60" height="30" align="left">登陆密码：</td>
@@ -140,8 +140,8 @@ function checkForm() {
 	              <td height="30" colspan="2" align="center">&nbsp;</td>
 	            </tr>
 	            <tr>
-	              <td colspan="2" align="center"><input type="submit" name="submit" style="background:url(/majupublish01/res/maju/img/login/login_5.gif) no-repeat;width:70px;" value=" 登  陆 " >&nbsp;&nbsp;&nbsp;
-				  <input type="reset" name="Submit" style="background:url(/majupublish01/res/maju/img/login/login_5.gif) no-repeat;width:70px;" value=" 重  置 "></td>
+	              <td colspan="2" align="center"><input type="submit" name="submit" style="background:url(/res/maju/img/login/login_5.gif) no-repeat;width:70px;" value=" 登  陆 " >&nbsp;&nbsp;&nbsp;
+				  <input type="reset" name="Submit" style="background:url(/res/maju/img/login/login_5.gif) no-repeat;width:70px;" value=" 重  置 "></td>
 	            </tr>
 	            <tr>
 	              <td height="5" colspan="2" align="center">
@@ -150,10 +150,10 @@ function checkForm() {
 	    	</table>
 	    	</form>
 	      </td>
-	    <td width="133" background="/majupublish01/res/maju/img/login/login_3.gif">&nbsp;</td>
+	    <td width="133" background="/res/maju/img/login/login_3.gif">&nbsp;</td>
 	  </tr>
 	  <tr>
-	    <td height="161" colspan="3" background="/majupublish01/res/maju/img/login/login_4.gif"></td>
+	    <td height="161" colspan="3" background="/res/maju/img/login/login_4.gif"></td>
 	  </tr>
 	</table>
 	</body>

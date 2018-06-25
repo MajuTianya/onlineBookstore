@@ -26,7 +26,7 @@
     font-size: 14px;
     font-weight: normal;
     border: 1px solid #C5C5C5;
-    background: url('/majupublish01/res/maju/img/admin/bg_ch.gif') repeat-x scroll 0% 0% transparent;
+    background: url('/res/maju/img/admin/bg_ch.gif') repeat-x scroll 0% 0% transparent;
 }
 a {
     color: #06C;

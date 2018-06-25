@@ -13,10 +13,10 @@ $(function(){
 	 */
 	$("#submitBtn").hover(
 			function(){
-				$("#submitBtn").attr("src","/majupublish/images/regist2.png");
+				$("#submitBtn").attr("src","/images/regist2.png");
 			},
 			function(){
-				$("#submitBtn").attr("src","/majupublish/images/regist.png");
+				$("#submitBtn").attr("src","/images/regist.png");
 			});
 	/*
 	 * <input type="img" src=""/>和<input type="submit" value=""/>功能是一样的，所以下面这些是不用写的

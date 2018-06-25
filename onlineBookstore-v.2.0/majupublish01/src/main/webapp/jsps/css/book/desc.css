@@ -12,11 +12,11 @@ li{margin:10px; }
 table{width:500px; font-size:10pt; margin-left:50px; matgin-top:10px; }
 td{height:25px; }
 #divForm{border:1px solid #dcdcdc; background-color:#f5f5f5; margin:15px 0px 0px 50px; padding:20px; }
-#submitBtn{background:url(/majupublish01/images/jrgwc.png) no-repeat; width:154px; height:35px; display:inline-block; }
-#submitBtn:hover{background:url(/majupublish01/images/jrgwc2.png) no-repeat; width:154px; height:35px; display:inline-block; }
+#submitBtn{background:url(/images/jrgwc.png) no-repeat; width:154px; height:35px; display:inline-block; }
+#submitBtn:hover{background:url(/images/jrgwc2.png) no-repeat; width:154px; height:35px; display:inline-block; }
 .index_hr{width:940px; border-bottom:5px solid #f2f1e2; margin:20px 0px; }
 .quantity{width:25px; margin:0px; text-align:center; }
-.jian{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:-166px -145px; width:11px; height:11px; margin:0px; }
-.jian:hover{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:-166px -125px; width:11px; height:11px; margin:0px; }
-.jia{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:-178px -145px; width:11px; height:11px; margin:0px; }
-.jia:hover{background:url(/majupublish01/images/icon.png) no-repeat; display:inline-block; background-position:-178px -125px; width:11px; height:11px; margin:0px; }
+.jian{background:url(/images/icon.png) no-repeat; display:inline-block; background-position:-166px -145px; width:11px; height:11px; margin:0px; }
+.jian:hover{background:url(/images/icon.png) no-repeat; display:inline-block; background-position:-166px -125px; width:11px; height:11px; margin:0px; }
+.jia{background:url(/images/icon.png) no-repeat; display:inline-block; background-position:-178px -145px; width:11px; height:11px; margin:0px; }
+.jia:hover{background:url(/images/icon.png) no-repeat; display:inline-block; background-position:-178px -125px; width:11px; height:11px; margin:0px; }

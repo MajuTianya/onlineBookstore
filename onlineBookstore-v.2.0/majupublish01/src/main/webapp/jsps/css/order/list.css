@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 body{margin:0px; padding:0px; font-size:10pt; color:#404040; }
 #divMain2{margin:70px 0px 0px 0px; display:inline-block; }
-#divTitle{background:url(/majupublish01/images/paginating_bg.png) repeat-x; display:inline-block; width:940px; height:35px; line-height:35px; border-top:1px solid #bbb69b; }
+#divTitle{background:url(/images/paginating_bg.png) repeat-x; display:inline-block; width:940px; height:35px; line-height:35px; border-top:1px solid #bbb69b; }
 .orderTitle{background-color:#efeae5; height:25px; font-family:Arial; color:#878787; }
 a{text-decoration:none; color:#018bd3; }
 a:hover{text-decoration:underline; }

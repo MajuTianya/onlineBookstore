@@ -26,7 +26,7 @@
     font-size: 14px;
     font-weight: normal;
     border: 1px solid #C5C5C5;
-    background: url('/majupublish01/res/maju/img/admin/bg_ch.gif') repeat-x scroll 0% 0% transparent;
+    background: url('/res/maju/img/admin/bg_ch.gif') repeat-x scroll 0% 0% transparent;
 }
 a {
     color: #06C;
@@ -96,7 +96,7 @@ $(function(){
 /* function uploadPicture(tuIndex){
 	//定义参数
 	var options = {
-			url:"/majupublish01/UploadServlet?method=uploadPicture&tuIndex="+tuIndex,
+			url:"/UploadServlet?method=uploadPicture&tuIndex="+tuIndex,
 			dataType:"json",
 			type:"post",
 			success:function(data){
@@ -117,7 +117,7 @@ $(function(){
 function uploadPicture(){
 	//定义参数
 	var options = {
-			url:"/majupublish01/admin/upload/uploadPicture.do",
+			url:"/admin/upload/uploadPicture.do",
 			dataType:"json",
 			type:"post",
 			success:function(data){
@@ -139,7 +139,7 @@ function uploadPicture(){
 function uploadPictureW(){
 	//定义参数
 	var options = {
-			url:"/majupublish01/admin/upload/uploadPictureW.do",
+			url:"/admin/upload/uploadPictureW.do",
 			dataType:"json",
 			type:"post",
 			success:function(data){
@@ -172,7 +172,7 @@ function loadChildren() {
 	$.ajax({
 		async:true,
 		cache:false,
-		url:"/majupublish01/admin/product/ajaxFindChildren.do?pid="+pid,
+		url:"/admin/product/ajaxFindChildren.do?pid="+pid,
 		type:"POST",
 		dataType:"json",
 		success:function(arr) {

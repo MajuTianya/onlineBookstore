@@ -25,10 +25,10 @@ $(function(){
 	 */
 	$("#loginBtn").hover(
 			function(){
-				$("#loginBtn").attr("src","/majupublish/images/login2.png");
+				$("#loginBtn").attr("src","/images/login2.png");
 			},
 			function(){
-				$("#loginBtn").attr("src","/majupublish/images/login.png");
+				$("#loginBtn").attr("src","/images/login.png");
 			});
 	
 	/*

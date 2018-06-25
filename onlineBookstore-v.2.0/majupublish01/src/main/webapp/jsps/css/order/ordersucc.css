@@ -8,5 +8,5 @@ body{margin:0px; padding:0px; font-size:10pt; color:#404040; font-family:SimSun;
 dl{width:400px; margin-top:30px;float:left; }
 dt{font-weight:900; }
 #price_zj{font-family:Arial; font-size:15pt; font-weight:bold; color:#c30; }
-#play{background:url(/majupublish01/images/bg_btns.png) no-repeat; display:inline-block; background-position:0px -300px; width:50px; height:20px; text-decoration:none; color:#ffffff; font-weight:900; font-family:黑体; text-align:center; line-height:20px; }
-#play:hover{background:url(/majupublish01/images/bg_btns.png) no-repeat; display:inline-block; background-position:0px -330px; width:50px; height:20px; }
+#play{background:url(/images/bg_btns.png) no-repeat; display:inline-block; background-position:0px -300px; width:50px; height:20px; text-decoration:none; color:#ffffff; font-weight:900; font-family:黑体; text-align:center; line-height:20px; }
+#play:hover{background:url(/images/bg_btns.png) no-repeat; display:inline-block; background-position:0px -330px; width:50px; height:20px; }
